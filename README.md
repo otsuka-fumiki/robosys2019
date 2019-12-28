@@ -29,4 +29,4 @@ echo 5 > /dev/myled0
 ```
 
 ## 動画
-https://youtu.be/gjKGY2bcYSA
+https://youtu.be/NcK4GZXKh4Y
