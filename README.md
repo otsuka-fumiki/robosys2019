@@ -10,6 +10,7 @@ LED
 抵抗　100Ω  
 
 ## 使い方
+環境構築
 ```
 git clone https://github.com/otsuka-fumiki/robosys2019.git
 cd robosys2019
@@ -17,5 +18,15 @@ make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
 ```
+点灯させたい時間を入力(例：動画の場合)
+1秒点灯して消灯を3回繰り返す
+```
+echo 1 > /dev/myled0
+```
+5秒点灯して消灯を3回繰り返す
+```
+echo 5 > /dev/myled0
+```
 
 ## 動画
+https://youtu.be/gjKGY2bcYSA
